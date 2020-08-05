@@ -12,7 +12,8 @@ from looking_glass import looking_glass_text
 from part_of_speech import get_part_of_speech
 
 # Change text to another string:
-text = looking_glass_text
+# text = looking_glass_text // its  a file with content
+text = "Aarav is the one the very the bestetst the waaa"
 
 cleaned = re.sub('\W+', ' ', text).lower()
 tokenized = word_tokenize(cleaned)
